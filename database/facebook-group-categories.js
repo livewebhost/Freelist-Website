@@ -17,6 +17,7 @@ const products = [
     { name: "Skin & Hair", link: "facebook-skin-hair-groups.html", groups: 0 },
     { name: "Flat and Flatmates", link: "facebook-flat-flatmates-groups.html", groups: 0 },
     { name: "Real Estate & Property", link: "facebook-real-estate-property-groups.html", groups: 0 },
+    { name: "Citywise", link: "facebook-citywise-groups.html", groups: 0 },
     // ...baaki categories
   ];
 
