@@ -274,7 +274,11 @@
         <!-- all css here -->
         <script src="assets/js/vendor/font-awesome.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="database/facebook-buy-and-sell-groups.js"></script>
+        <script>
+          const script = document.createElement("script");
+          script.src = "database/facebook-buy-and-sell-groups.js?v=" + Date.now();
+          document.head.appendChild(script);
+        </script>
         <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
         <script src="assets/js/vendor/waypoints.min.js"></script>
         <script src="assets/js/vendor/counterup.min.js"></script>
