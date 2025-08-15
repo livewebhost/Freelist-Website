@@ -28,16 +28,7 @@
             { name: "Mumbai Marketplace", link: "https://www.facebook.com/groups/mumbaimarketplaceindia/", members: 14541 },
             { name: "Online Shopping", link: "https://www.facebook.com/groups/onlineshopping.facebook/", members: 16402 },
             { name: "Online Shopping Nagpur", link: "https://www.facebook.com/groups/onlineshoppingnagpurr/", members: 5530 },
-
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
+            { name: "Online Shopping", link: "https://www.facebook.com/groups/india.online.shopping.hub/", members: 11 },
           ];
 
           const tbody = document.getElementById("cart-products");
