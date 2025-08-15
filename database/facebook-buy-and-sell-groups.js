@@ -14,6 +14,11 @@
             { name: "Delhi Marketplace", link: "https://www.facebook.com/groups/delhi.marketplace.india/", members: 44 },
             { name: "Mumbai Marketplace", link: "https://www.facebook.com/groups/marketplacemumbaiindia/", members: 154 },
             { name: "Marketplace", link: "https://www.facebook.com/groups/marketplace.fb.india/", members: 1606 },
+            { name: "Marketplace", link: "https://www.facebook.com/groups/indiamarketplacegroup/", members: 7275 },
+            { name: "Marketplace - Buy and Sell", link: "https://www.facebook.com/groups/marketplacebuyandsell.india/", members: 6522 },
+            { name: "Meesho online shopping group", link: "https://www.facebook.com/groups/meeshoonlineshoppinggroup/", members: 256 },
+            { name: "Online Shopping Group", link: "https://www.facebook.com/groups/facebook.onlineshoppinggroup/", members: 1261 },
+            { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
           ];
 
           const tbody = document.getElementById("cart-products");
