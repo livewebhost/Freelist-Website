@@ -8,6 +8,10 @@
             { name: "Men's Fashion World", link: "https://www.facebook.com/groups/mensfashionworld.india/", members: 10 },
             { name: "Mens and boys clothes", link: "https://www.facebook.com/groups/mensandboysclothes/", members: 39 },
             { name: "Men's clothing", link: "https://www.facebook.com/groups/mensclothing.india/", members: 438 },
+            { name: "Delhi ladies group", link: "https://www.facebook.com/groups/delhiladiesgroup/", members: 157 },
+            { name: "Marketplace", link: "https://www.facebook.com/groups/free.marketplace.india/", members: 260 },
+            { name: "Bangalore Marketplace", link: "https://www.facebook.com/groups/bangaloremarketplace.india/", members: 79 },
+            { name: "Delhi Marketplace", link: "https://www.facebook.com/groups/delhi.marketplace.india/", members: 44 },
           ];
 
           const tbody = document.getElementById("cart-products");
