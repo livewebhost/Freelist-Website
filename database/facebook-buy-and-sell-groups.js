@@ -12,6 +12,8 @@
             { name: "Marketplace", link: "https://www.facebook.com/groups/free.marketplace.india/", members: 260 },
             { name: "Bangalore Marketplace", link: "https://www.facebook.com/groups/bangaloremarketplace.india/", members: 79 },
             { name: "Delhi Marketplace", link: "https://www.facebook.com/groups/delhi.marketplace.india/", members: 44 },
+            { name: "Mumbai Marketplace", link: "https://www.facebook.com/groups/marketplacemumbaiindia/", members: 154 },
+            { name: "Marketplace", link: "https://www.facebook.com/groups/marketplace.fb.india/", members: 1606 },
           ];
 
           const tbody = document.getElementById("cart-products");
