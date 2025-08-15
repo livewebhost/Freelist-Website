@@ -12,16 +12,11 @@ const products = [
     { name: "Fitness", link: "facebook-fitness-groups.html", groups: 0 },
     { name: "SEO", link: "facebook-seo-groups.html", groups: 0 },
     { name: "Community", link: "facebook-community-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "B2B Business", link: "facebook-b2b-business-groups.html", groups: 0 },
+    { name: "Architects & Interior", link: "facebook-architects-interior-groups.html", groups: 0 },
+    { name: "Skin & Hair", link: "facebook-skin-hair-groups.html", groups: 0 },
+    { name: "Flat and Flatmates", link: "facebook-flat-flatmates-groups.html", groups: 0 },
+    { name: "Real Estate & Property", link: "facebook-real-estate-property-groups.html", groups: 0 },
     // ...baaki categories
   ];
 
