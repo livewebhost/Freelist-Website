@@ -1,8 +1,27 @@
 const products = [
     { name: "Buy & Sell", link: "facebook-buy-and-sell-groups.html", groups: 19 },
-    { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 12 },
-    { name: "Jobs", link: "facebook-jobs-groups.html", groups: 25 },
-    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 8 }
+    { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 0 },
+    { name: "Jobs", link: "facebook-jobs-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Business", link: "facebook-business-groups.html", groups: 0 },
+    { name: "Friends", link: "facebook-friends-groups.html", groups: 0 },
+    { name: "Wholesale", link: "facebook-wholesale-groups.html", groups: 0 },
+    { name: "Classified", link: "facebook-classified-groups.html", groups: 0 },
+    { name: "Loan", link: "facebook-loan-groups.html", groups: 0 },
+    { name: "Follower", link: "facebook-follower-groups.html", groups: 0 },
+    { name: "Fitness", link: "facebook-fitness-groups.html", groups: 0 },
+    { name: "SEO", link: "facebook-seo-groups.html", groups: 0 },
+    { name: "Community", link: "facebook-community-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
+    { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
     // ...baaki categories
   ];
 
