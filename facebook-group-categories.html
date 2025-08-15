@@ -172,7 +172,9 @@
                             </div>
                             <div class="content">
                                 <h3>Buy & Sell 
-                                <script src="database/facebook-buy-and-sell-groups.js"></script>
+                                <script>
+                                  document.write('<script src="database/facebook-buy-and-sell-groups.js?v=' + Date.now() + '"><\/script>');
+                                </script>
                                 <script>
                                   document.write("(" + totalUniqueGroups + ")");
                                 </script>
