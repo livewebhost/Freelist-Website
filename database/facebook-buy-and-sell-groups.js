@@ -1,6 +1,5 @@
           // Example data array
           const products = [
-            { name: "Mumbai Business Group", link: "https://www.facebook.com/groups/mumbaibusinessgroupindia/", members: 1 },
             { name: "Fashion clothes for Boys", link: "https://www.facebook.com/groups/fashionclothesforboys/", members: 836 },
             { name: "Marketplace", link: "https://www.facebook.com/groups/fb.facebookmarketplace/", members: 21 },
             { name: "Buy & Sell", link: "https://www.facebook.com/groups/buysellonline.india/", members: 4 },
