@@ -171,7 +171,7 @@
                                 <img src="assets/images/categoryicons/facebook_groups_category.png" alt="" />
                             </div>
                             <div class="content">
-                                <h3>Buy & Sell <span id="group-count"></span></h3>
+                                <h3>Buy & Sell</h3>
                                 <a href="facebook-buy-and-sell-groups.html" class="f-btn">View All<i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -411,16 +411,6 @@
         <!-- all css here -->
         <script src="assets/js/vendor/font-awesome.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
-        <script>
-                                  // Dynamic script load with cache-busting
-                                  const script = document.createElement('script');
-                                  script.src = "database/facebook-buy-and-sell-groups.js?v=" + Date.now();
-                                  script.onload = function() {
-                                    // JS file loaded — now we can use totalUniqueGroups
-                                    document.getElementById("group-count").textContent = "(" + totalUniqueGroups + ")";
-                                  };
-                                  document.head.appendChild(script);
-                                </script>
         <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
         <script src="assets/js/vendor/waypoints.min.js"></script>
         <script src="assets/js/vendor/counterup.min.js"></script>
