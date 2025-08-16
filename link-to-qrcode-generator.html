@@ -144,8 +144,13 @@
                                         <label>Link*</label>
                                         <input type="text" id="MyURL" placeholder="Example: https://abc.com">
                                     </div>
-                                    <div class="f-bottom">
-                                        <button class="btn btn-s2 btn-lg fade" type="button" onclick="create_qr()">Create</button>
+                                    <div class="row">
+                                        <div class="f-bottom col-6">
+                                            <button class="btn btn-s2 btn-lg fade" type="button" onclick="create_qr()">Create</button>
+                                        </div>
+                                        <div class="f-bottom col-6">
+                                            <button class="btn btn-s7 btn-lg fade" type="button" onclick="clear_all()">Clear</button>
+                                        </div>
                                     </div>
 
                                     <div id="show_qr">
@@ -199,7 +204,11 @@
         <!-- all css here -->
         <script src="assets/js/vendor/font-awesome.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="functions/link-to-qrcode-generator.js"></script>
+        <script>
+          const script = document.createElement("script");
+          script.src = "functions/link-to-qrcode-generator.js?v=" + Date.now();
+          document.head.appendChild(script);
+        </script>
         <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
         <script src="assets/js/vendor/waypoints.min.js"></script>
         <script src="assets/js/vendor/counterup.min.js"></script>
