@@ -1,10 +1,10 @@
 const products = [
     { name: "Buy & Sell", link: "facebook-buy-and-sell-groups.html", groups: 19 },
     { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 7 },
-    { name: "Jobs", link: "facebook-job-groups.html", groups: 6 },
-    { name: "Influencers", link: "facebook-influencer-groups.html", groups: 1 },
+    { name: "Job", link: "facebook-job-groups.html", groups: 6 },
+    { name: "Influencer", link: "facebook-influencer-groups.html", groups: 1 },
     { name: "Business", link: "facebook-business-groups.html", groups: 7 },
-    { name: "Friends", link: "facebook-friends-groups.html", groups: 0 },
+    { name: "Friend", link: "facebook-friend-groups.html", groups: 1 },
     { name: "Wholesale", link: "facebook-wholesale-groups.html", groups: 0 },
     { name: "Classified", link: "facebook-classified-groups.html", groups: 0 },
     { name: "Loan", link: "facebook-loan-groups.html", groups: 0 },
