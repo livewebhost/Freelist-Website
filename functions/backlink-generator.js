@@ -95,11 +95,15 @@ let links = [];
 let completed = 0;
 
 function create_backlink() {
-  const inputUrl = document.getElementById("MyURL").value.trim();
+  let inputUrl = document.getElementById("MyURL").value.trim();
   if (!inputUrl) {
     alert("Please enter a domain!");
     return;
   }
+
+  // 🌐 Sanitize domain (http/https, www. remove)
+  inputUrl = inputUrl.replace(/(^\w+:|^)\/\//, ""); // http:// or https:// hatao
+  inputUrl = inputUrl.replace(/^www\./, ""); // agar www. hai to remove
 
   // domain replace
   links = linkTemplates.map(t => t.replace(/{{domain}}/g, inputUrl));
@@ -131,7 +135,7 @@ function loadNextLink(index) {
     div.scrollIntoView({ behavior: "smooth", block: "end" });
 
     // next backlink load karo
-    setTimeout(() => loadNextLink(index + 1), 300); // thoda delay natural lagne ke liye
+    setTimeout(() => loadNextLink(index + 1), 300); 
   };
 
   img.src = url + "?rand=" + Math.random(); // cache bypass
