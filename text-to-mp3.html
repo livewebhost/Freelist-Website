@@ -145,23 +145,20 @@
                                     </div>
                                     <div class="s-input">
                                         <label>Language*</label><br />
-                                        <select id="languages" onchange="filterVoices()"></select>
-                                        <br />
-                                    </div>
-                                    <div class="s-input">
-                                        <label>Voice*</label><br />
-                                        <select id="voices"></select>
+                                        <select id="lang">
+                                          <option value="en">English</option>
+                                          <option value="hi">Hindi</option>
+                                          <option value="ur">Urdu</option>
+                                          <option value="bn">Bengali</option>
+                                        </select>
                                         <br />
                                     </div>
                                     <div class="row">
-                                        <div class="f-bottom col-4">
-                                            <button class="btn btn-s2 btn-lg fade" type="button" onclick="speak()">🔊 Play</button>
+                                        <div class="f-bottom col-6">
+                                            <button class="btn btn-s2 btn-lg fade" type="button" onclick="playTTS()">🔊 Play</button>
                                         </div>
-                                        <div class="f-bottom col-4">
-                                            <button class="btn btn-s7 btn-lg fade" type="button" onclick="stop()">⏹ Stop</button>
-                                        </div>
-                                        <div class="f-bottom col-4">
-                                            <button class="btn btn-s7 btn-lg fade" type="button" onclick="download()">⬇️ Download</button>
+                                        <div class="f-bottom col-6">
+                                            <button class="btn btn-s7 btn-lg fade" type="button" onclick="downloadTTS()">⬇️ Download</button>
                                         </div>
                                     </div>
 
