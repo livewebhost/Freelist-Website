@@ -1,6 +1,12 @@
           // Example data array
           const products = [
-            { name: "Influencers Hub", link: "https://www.facebook.com/groups/influencershubindia/", members: 1 },
+            { name: "Mumbai Business Group", link: "https://www.facebook.com/groups/mumbaibusinessgroupindia/", members: 1 },
+            { name: "Business ideas for indian", link: "https://www.facebook.com/groups/businessideasforindian/", members: 24 },
+            { name: "Small business owners/entrepreneurs", link: "https://www.facebook.com/groups/smallbusinessownersentrepreneurs.india/", members: 45 },
+            { name: "India B2B business entreprenuers and startups", link: "https://www.facebook.com/groups/indiab2bbusinessentreprenuersandstartups/", members: 40 },
+            { name: "Business Network India", link: "https://www.facebook.com/groups/businessnetworkindia.fb/", members: 44 },
+            { name: "Promote Your Startup Business", link: "https://www.facebook.com/groups/promoteyourstartupbusiness/", members: 309 },
+            { name: "Business Startups Indian", link: "https://www.facebook.com/groups/businessstartupsindian.bizcomnetwork/", members: 41 },
           ];
 
           const tbody = document.getElementById("cart-products");

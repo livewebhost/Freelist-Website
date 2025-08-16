@@ -3,7 +3,7 @@ const products = [
     { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 7 },
     { name: "Jobs", link: "facebook-job-groups.html", groups: 6 },
     { name: "Influencers", link: "facebook-influencer-groups.html", groups: 1 },
-    { name: "Business", link: "facebook-business-groups.html", groups: 0 },
+    { name: "Business", link: "facebook-business-groups.html", groups: 7 },
     { name: "Friends", link: "facebook-friends-groups.html", groups: 0 },
     { name: "Wholesale", link: "facebook-wholesale-groups.html", groups: 0 },
     { name: "Classified", link: "facebook-classified-groups.html", groups: 0 },
