@@ -5,7 +5,7 @@ const products = [
     { name: "Influencer", link: "facebook-influencer-groups.html", groups: 1 },
     { name: "Business", link: "facebook-business-groups.html", groups: 7 },
     { name: "Friend", link: "facebook-friend-groups.html", groups: 1 },
-    { name: "Wholesale", link: "facebook-wholesale-groups.html", groups: 0 },
+    { name: "Wholesale", link: "facebook-wholesale-groups.html", groups: 1 },
     { name: "Classified", link: "facebook-classified-groups.html", groups: 0 },
     { name: "Loan", link: "facebook-loan-groups.html", groups: 0 },
     { name: "Follower", link: "facebook-follower-groups.html", groups: 0 },
