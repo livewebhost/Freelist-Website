@@ -1,6 +1,6 @@
 const products = [
     { name: "Buy & Sell", link: "facebook-buy-and-sell-groups.html", groups: 19 },
-    { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 0 },
+    { name: "Digital Marketing", link: "facebook-digital-marketing-groups.html", groups: 7 },
     { name: "Jobs", link: "facebook-jobs-groups.html", groups: 0 },
     { name: "Influencers", link: "facebook-influencers-groups.html", groups: 0 },
     { name: "Business", link: "facebook-business-groups.html", groups: 0 },
