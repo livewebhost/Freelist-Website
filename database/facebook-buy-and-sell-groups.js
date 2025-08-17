@@ -18,7 +18,6 @@
             { name: "Meesho online shopping group", link: "https://www.facebook.com/groups/meeshoonlineshoppinggroup/", members: 256 },
             { name: "Online Shopping Group", link: "https://www.facebook.com/groups/facebook.onlineshoppinggroup/", members: 1261 },
             { name: "Mumbai ladies group", link: "https://www.facebook.com/groups/mumbailadiesgroup/", members: 12241 },
-            { name: "Online Shopping Lucknow", link: "https://www.facebook.com/groups/onlineshoppinglucknow.india/", members: 394 },
             { name: "Pune marketplace", link: "https://www.facebook.com/groups/punemarketplace.india/", members: 5408 },
             { name: "Marketplace", link: "https://www.facebook.com/groups/indiamarketplace1/", members: 19528 },
             { name: "Online Shopping Ujjain", link: "https://www.facebook.com/groups/onlineshoppingujjain/", members: 8087 },
