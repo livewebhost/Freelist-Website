@@ -27,6 +27,7 @@
             { name: "Online Shopping", link: "https://www.facebook.com/groups/onlineshopping.facebook/", members: 16402 },
             { name: "Online Shopping Nagpur", link: "https://www.facebook.com/groups/onlineshoppingnagpurr/", members: 5530 },
             { name: "Online Shopping", link: "https://www.facebook.com/groups/india.online.shopping.hub/", members: 11 },
+            { name: "Marketplace", link: "https://www.facebook.com/groups/marketplace2025", members: 1 },
           ];
 
           const tbody = document.getElementById("cart-products");
