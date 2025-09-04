@@ -60,51 +60,8 @@
             </div>
         </div>
         <!-- header start -->
-        <header class="header accent-red">
-            <div class="h-bottom-container">
-                <div class="container-stretch">
-                    <div class="h-bottom-inner">
-                        <div class="p-left">
-                            <div class="logo">
-                                <a href="https://freelist.in/">
-                                    <img src="assets/images/logos/freelist_logo.png" alt="" />
-                                </a>
-                            </div>
-                            <div class="m-logo">
-                                <img src="assets/images/logos/freelist_logo.png" alt="" />
-                            </div>
-                        </div>
-                        <div class="p-center">
-                            <nav>
-                                <ul class="main-nav">
-                                    <li><a href="https://freelist.in/">Home</a></li>
-                                    <li class="dropdown">
-                                        <a href="javascript:void(0)"
-                                            >Services<span class="icon"><i class="fa-solid fa-angle-down"></i></span
-                                        ></a>
-                                        <div class="dropdown-container">
-                                            <ul class="dropdown-menu">
-                                                <li><a href="index.html">Digital Business Card</a></li>
-                                                <li><a href="index-2.html">Google Reviews</a></li>
-                                                <li><a href="index-3.html">Link to QR Code</a></li>
-                                                <li><a href="index-3.html">Link Tracker</a></li>
-                                                <li><a href="index-3.html">Instagram Followers</a></li>
-                                                <li><a href="index-3.html">CRM</a></li>
-                                                <li><a href="index-3.html">Facebook Groups</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="p-right">
-                            <a href="author.html" class="btn btn-s1 outlined bs-link">Live Support</a>
-                            <button id="m-nav-open"><i class="fa-solid fa-bars"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <header class="header accent-red" id="header">
+            Loading...
         </header>
         <!-- header end -->
         <!-- drawer menu start -->
@@ -204,25 +161,17 @@
         <!-- catagories sec end -->
 
         <!-- footer start -->
-        <footer class="footer-s1">
-            <div class="container-stretch">
-                <div class="f-copy-right">
-                    <div class="p-left">
-                        <p class="cr-text">©2025 Freelist All rights reserved</p>
-                    </div>
-                    <div class="p-right">
-                        <!--<span>Check Community here<i class="fa-solid fa-angle-right"></i></span>
-                        <a href="#">
-                            <img src="assets/images/thumbs/p-gateway-img.png" alt="" />
-                        </a>-->
-                    </div>
-                </div>
-            </div>
+        <footer class="footer-s1" id="footer">
+            Loading...
         </footer>
         <!-- footer end -->
         <!-- all css here -->
         <script src="assets/js/vendor/font-awesome.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
+        <script>
+            $("#header").load("common/header.html");
+            $("#footer").load("common/footer.html");
+        </script>
         <script>
           const script = document.createElement("script");
           script.src = "database/facebook-job-groups.js?v=" + Date.now();
